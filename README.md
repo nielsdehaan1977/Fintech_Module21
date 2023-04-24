@@ -31,6 +31,7 @@ c. After purchasing tokens with test accounts, viewing the total supply of minte
 
 - [Tech](#technologies)
 - [Usage](#usage)
+- [Videos/Screenshots](#Videos and Screenshots)
 - [Contributor(s)](#contributor(s))
 - [License(s)](#license(s))
 
