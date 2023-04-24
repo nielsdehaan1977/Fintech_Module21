@@ -86,7 +86,7 @@ To use the KaseiCoin smart contracts, simply clone the full repository and open 
 
 ## Videos_Screenshots 
 
-### Deploy the Crowdsale to a Local Blockchain
+### Deploy the Crowdsale to a Local Blockchain (Click on Links to start videos)
 
 * Deploy crowdsale deployer contract
 ![CrowdsaleDeployer Video](https://user-images.githubusercontent.com/48995199/233878086-85f16cb1-9cc7-4f1e-841e-41d44173962c.mp4)
