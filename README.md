@@ -3,7 +3,7 @@
 
 ## KaseiCoin full setup
 ---
-![KaseiCoin0](https://github.com/nielsdehaan1977/Fintech_Module21/blob/main/Images/kaseicoin.jpg
+![KaseiCoin0](https://github.com/nielsdehaan1977/Fintech_Module21/blob/main/Images/kaseicoin.jpg)
 
 
 KaseiCoin will be a fungible token that is ERC-20 compliant. KaseiCoin will be launched via a crowdsale that will allow people who are moving to Mars to convert their earthling money to KaseiCoin. This repository can be used as a template to create a fungible token that is ERC-20 compliant and that will be minted by using a Crowdsale contract from the OpenZeppelin Solidity library.The crowdsale contract will manage the entire crowdsale process, allowing users to send ether to the contract and in return receive KAI, or KaseiCoin tokens. Your contract will mint the tokens automatically and distribute them to buyers in one transaction.
