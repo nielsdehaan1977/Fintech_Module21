@@ -80,7 +80,7 @@ https://user-images.githubusercontent.com/48995199/233878190-fabf1b48-1b60-42d7-
 
 
 * Token in action, buy purchasing tokens
-![](https://user-images.githubusercontent.com/48995199/233878209-26cfe6fe-82c8-45fd-a9b0-f960df97a089.mp4)
+![TokenVideo](https://user-images.githubusercontent.com/48995199/233878209-26cfe6fe-82c8-45fd-a9b0-f960df97a089.mp4)
 
 ![transaction1](https://github.com/nielsdehaan1977/Fintech_Module21/blob/main/Images/4d1AddedboughtTokensToMetamask.jpg)
 
