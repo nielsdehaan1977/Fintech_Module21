@@ -13,16 +13,49 @@ KaseiCoin will be a fungible token that is ERC-20 compliant. KaseiCoin will be l
 
 1. Create the KaseiCoin Token Contract
 
+Import the following contracts from the OpenZeppelin library:
+* ERC20
+* ERC20Detailed
+* ERC20Mintable
+
+- Define a contract for the KaseiCoin token called KaseiCoin, and have the contract inherit the three contracts that you just imported from OpenZeppelin.
+- Inside of your KaseiCoin contract, add a constructor with the following parameters: name, symbol, and initial_supply.
+- As part of your constructor definition, add a call to the ERC20Detailed contracts constructor, passing the parameters name, symbol, and 18. Recall that 18 is the value for the decimal parameter.
+
 ![KaseiCoin](https://github.com/nielsdehaan1977/Fintech_Module21/blob/main/Images/1.Successfull_compilation_of_Kasei_token.jpg)
 
 2. Create the KaseiCoin Crowdsale Contract
+- Import the provided KaseiCoinCrowdsale.sol starter code into the Remix IDE.
+- This contract inherit the following OpenZeppelin contracts:
+- Crowdsale
+- MintedCrowdsale
+- Within the KaisenCoinCrowdsale constructor, provide parameters for all of the features of your crowdsale, such as rate, wallet (where the funds that the token raises should be deposited), and token (the KaseiCoin that the KaseiCoinCrowdsale will use). 
+
 ![KaseiCoin2](https://github.com/nielsdehaan1977/Fintech_Module21/blob/main/Images/2.Successfull_compilation_of_Kasei_crowdsale_contract.jpg)
 
 3. Create the KaseiCoin Deployer Contract
+
+- Create the KaseiCoin deployer contract. Start by uncommenting the KaseiCoinCrowdsaleDeployer contract in the provided KaseiCoinCrowdsale.sol starter code.
+- add variables to store the addresses of the KaseiCoin and KaseiCoinCrowdsale contracts, which this contract will deploy. To do so, complete the following steps:
+- Create an address public variable called kasei_token_address, which will store KaseiCoin’s address once that contract has been deployed.
+- Create an address public variable called kasei_crowdsale_address, which will store KaseiCoinCrowdsale's address once that contract has been deployed.
+- Add the following parameters to the constructor for the KaseiCoinCrowdsaleDeployer contract: name, symbol, and wallet.
+
+- Create the KaseiCoin token by using a new instance of the KaseiCoin contract with parameters name and symbol, and by setting the initial_supply parameter to 0.
+- Assign the KaseiCoin token contract’s address to the kasei_token_address variable. This will allow you to easily fetch the token's address later.
+
+- Create a new instance of the KaseiCoinCrowdsale contract using the following parameters:
+- rate (Set rate equal to 1 in order to maintain parity with ether.)
+- wallet (Pass wallet in from the main constructor. This is the wallet that will get paid all of the ether raised by the crowdsale contract.)
+- token (This is the token variable where KaseiCoin is stored.)
+
+- Assign the KaseiCoin crowdsale contract’s address to the kasei_crowdsale_address variable. This will allow you to easily fetch the crowdsale’s address later.
+- Set the KaseiCoinCrowdsale contract as a minter.
+- Have the KaseiCoinCrowdsaleDeployer renounce its minter role.
+
 ![KaseiCoin3](https://github.com/nielsdehaan1977/Fintech_Module21/blob/main/Images/3.Successfull_compilation_of_Kasei_deployer_contract.jpg)
 
-
-4. Deploy the Crowdsale to a Local Blockchain (See Videos below)
+4. Deploy the Crowdsale to a Local Blockchain (See Videos and screenshot section below)
 a. Deployment of the contract to a local blockchain with Remix, MetaMask, and Ganache.
 b. Using test accounts to buy new tokens from the crowdsale and then checking the balances associated with the test accounts.
 c. After purchasing tokens with test accounts, viewing the total supply of minted tokens and the amount of wei that has been raised by the crowdsale.
