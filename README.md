@@ -1,6 +1,7 @@
 # Fintech_Module21
 ---
-KaseiCoin
+
+## KaseiCoin
 
 KaseiCoin will be a fungible token that is ERC-20 compliant. KaseiCoin will be launched via a crowdsale that will allow people who are moving to Mars to convert their earthling money to KaseiCoin.
 
@@ -79,7 +80,7 @@ https://user-images.githubusercontent.com/48995199/233878190-fabf1b48-1b60-42d7-
 
 
 * Token in action, buy purchasing tokens
-https://user-images.githubusercontent.com/48995199/233878209-26cfe6fe-82c8-45fd-a9b0-f960df97a089.mp4
+![transaction0](https://user-images.githubusercontent.com/48995199/233878209-26cfe6fe-82c8-45fd-a9b0-f960df97a089.mp4)
 
 ![transaction1](https://github.com/nielsdehaan1977/Fintech_Module21/blob/main/Images/4d1AddedboughtTokensToMetamask.jpg)
 
