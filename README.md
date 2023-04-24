@@ -31,7 +31,7 @@ c. After purchasing tokens with test accounts, viewing the total supply of minte
 
 - [Tech](#technologies)
 - [Usage](#usage)
-- [Videos/Screenshots](#Videos and Screenshots)
+- [Videos_Screenshots](#Videos_Screenshots)
 - [Contributor(s)](#contributor(s))
 - [License(s)](#license(s))
 
@@ -51,7 +51,7 @@ To use the KaseiCoin smart contracts, simply clone the full repository and open 
 
 ---
 
-## Videos/Screenshots 
+## Videos_Screenshots 
 
 ### Deploy the Crowdsale to a Local Blockchain
 
