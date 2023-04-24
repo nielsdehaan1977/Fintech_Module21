@@ -89,7 +89,7 @@ To use the KaseiCoin smart contracts, simply clone the full repository and open 
 ### Deploy the Crowdsale to a Local Blockchain
 
 * Deploy crowdsale deployer contract
-https://user-images.githubusercontent.com/48995199/233878086-85f16cb1-9cc7-4f1e-841e-41d44173962c.mp4
+![CrowdsaleDeployer Video](https://user-images.githubusercontent.com/48995199/233878086-85f16cb1-9cc7-4f1e-841e-41d44173962c.mp4)
 
 ![deploy1](https://github.com/nielsdehaan1977/Fintech_Module21/blob/main/Images/4a1ContractDeployed.jpg)
 
@@ -99,11 +99,11 @@ https://user-images.githubusercontent.com/48995199/233878086-85f16cb1-9cc7-4f1e-
 
 
 * Link crowdsale to deployer contract
-https://user-images.githubusercontent.com/48995199/233878144-89e48f1e-b26b-40de-bcda-4fbba943ec3e.mp4
+![Link_Crowdsale Video](https://user-images.githubusercontent.com/48995199/233878144-89e48f1e-b26b-40de-bcda-4fbba943ec3e.mp4)
 
 
 * Link token contract
-https://user-images.githubusercontent.com/48995199/233878190-fabf1b48-1b60-42d7-b534-bb3365470f2f.mp4
+![Link_Token Video](https://user-images.githubusercontent.com/48995199/233878190-fabf1b48-1b60-42d7-b534-bb3365470f2f.mp4)
 
 ![tokenlink1](https://github.com/nielsdehaan1977/Fintech_Module21/blob/main/Images/4c1AddTokenToMetamask.jpg)
 
@@ -113,7 +113,7 @@ https://user-images.githubusercontent.com/48995199/233878190-fabf1b48-1b60-42d7-
 
 
 * Token in action, buy purchasing tokens
-![TokenVideo](https://user-images.githubusercontent.com/48995199/233878209-26cfe6fe-82c8-45fd-a9b0-f960df97a089.mp4)
+![Purchase_Token Video](https://user-images.githubusercontent.com/48995199/233878209-26cfe6fe-82c8-45fd-a9b0-f960df97a089.mp4)
 
 ![transaction1](https://github.com/nielsdehaan1977/Fintech_Module21/blob/main/Images/4d1AddedboughtTokensToMetamask.jpg)
 
