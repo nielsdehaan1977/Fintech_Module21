@@ -91,10 +91,13 @@ To use the KaseiCoin smart contracts, simply clone the full repository and open 
 * Deploy crowdsale deployer contract
 ![CrowdsaleDeployer Video](https://user-images.githubusercontent.com/48995199/233878086-85f16cb1-9cc7-4f1e-841e-41d44173962c.mp4)
 
+* Contract Deployed:
 ![deploy1](https://github.com/nielsdehaan1977/Fintech_Module21/blob/main/Images/4a1ContractDeployed.jpg)
 
+* Contract Recorded in Ganach
 ![deploy2](https://github.com/nielsdehaan1977/Fintech_Module21/blob/main/Images/4a2ContractrecordedGanach.jpg)
 
+* Contract Deployed in Metamask
 ![deploy3](https://github.com/nielsdehaan1977/Fintech_Module21/blob/main/Images/4a3ContractDeployedMetamask.jpg)
 
 
@@ -105,21 +108,31 @@ To use the KaseiCoin smart contracts, simply clone the full repository and open 
 * Link token contract
 ![Link_Token Video](https://user-images.githubusercontent.com/48995199/233878190-fabf1b48-1b60-42d7-b534-bb3365470f2f.mp4)
 
+* Token added to MetaMask (1)
 ![tokenlink1](https://github.com/nielsdehaan1977/Fintech_Module21/blob/main/Images/4c1AddTokenToMetamask.jpg)
 
+* Token added to MetaMask (2)
 ![tokenlink2](https://github.com/nielsdehaan1977/Fintech_Module21/blob/main/Images/4c2AddTokenToMetamask.jpg)
 
+* Token added to MetaMask (3)
 ![tokenlink3](https://github.com/nielsdehaan1977/Fintech_Module21/blob/main/Images/4c3AddTokenToMetamask.jpg)
 
 
-* Token in action, buy purchasing tokens
+* Token in action, purchasing tokens
 ![Purchase_Token Video](https://user-images.githubusercontent.com/48995199/233878209-26cfe6fe-82c8-45fd-a9b0-f960df97a089.mp4)
 
+* Added bought tokens to Metamask
 ![transaction1](https://github.com/nielsdehaan1977/Fintech_Module21/blob/main/Images/4d1AddedboughtTokensToMetamask.jpg)
 
+* Executed Transaction on Ganache(1)
 ![transaction2](https://github.com/nielsdehaan1977/Fintech_Module21/blob/main/Images/4d1transactioninGanache1.jpg)
 
+* Executed Transaction on Ganache(2)
 ![transaction3](https://github.com/nielsdehaan1977/Fintech_Module21/blob/main/Images/4d1transactioninGanache2.jpg)
 
+* Total Supply of Tokens
+![transaction4](https://github.com/nielsdehaan1977/Fintech_Module21/blob/main/Images/4dTotalSupply.jpg)
 
+* Total Wei Raised
+![transaction5](https://github.com/nielsdehaan1977/Fintech_Module21/blob/main/Images/4dTotalWeiRaise.jpg)
 
