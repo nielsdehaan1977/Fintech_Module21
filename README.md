@@ -2,6 +2,9 @@
 ---
 
 ## KaseiCoin full setup
+---
+![KaseiCoin0](https://github.com/nielsdehaan1977/Fintech_Module21/blob/main/Images/kaseicoin.jpg
+
 
 KaseiCoin will be a fungible token that is ERC-20 compliant. KaseiCoin will be launched via a crowdsale that will allow people who are moving to Mars to convert their earthling money to KaseiCoin. This repository can be used as a template to create a fungible token that is ERC-20 compliant and that will be minted by using a Crowdsale contract from the OpenZeppelin Solidity library.The crowdsale contract will manage the entire crowdsale process, allowing users to send ether to the contract and in return receive KAI, or KaseiCoin tokens. Your contract will mint the tokens automatically and distribute them to buyers in one transaction.
 --- 
@@ -19,12 +22,10 @@ KaseiCoin will be a fungible token that is ERC-20 compliant. KaseiCoin will be l
 ![KaseiCoin3](https://github.com/nielsdehaan1977/Fintech_Module21/blob/main/Images/3.Successfull_compilation_of_Kasei_deployer_contract.jpg)
 
 
-4. Deploy the Crowdsale to a Local Blockchain
-Deployment of the contract to a local blockchain with Remix, MetaMask, and Ganache.
-
-Using test accounts to buy new tokens from the crowdsale and then checking the balances associated with the test accounts.
-
-After purchasing tokens with test accounts, viewing the total supply of minted tokens and the amount of wei that has been raised by the crowdsale.
+4. Deploy the Crowdsale to a Local Blockchain (See Videos below)
+a. Deployment of the contract to a local blockchain with Remix, MetaMask, and Ganache.
+b. Using test accounts to buy new tokens from the crowdsale and then checking the balances associated with the test accounts.
+c. After purchasing tokens with test accounts, viewing the total supply of minted tokens and the amount of wei that has been raised by the crowdsale.
 
 ## Table of Content
 
@@ -49,7 +50,7 @@ To use the KaseiCoin smart contracts, simply clone the full repository and open 
 
 ---
 
-# Deploy the Crowdsale to a Local Blockchain
+# Videos and screenshots: Deploy the Crowdsale to a Local Blockchain
 
 * Deploy crowdsale deployer contract
 https://user-images.githubusercontent.com/48995199/233878086-85f16cb1-9cc7-4f1e-841e-41d44173962c.mp4
